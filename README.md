@@ -1,6 +1,6 @@
-# Weather CityWatch Game (Bootstrap, CSS HTML) 
+# Weather CityWatch (Reactjs, Bootstrap) 
 ## Description
-* This is the repository that holds the source code of [Weather CityWatch](https://weathercitywatch.netlify.app/).  It has been developed using Reactjs and bootstrap.
+* This is the repository that holds the source code of [Weather CityWatch](https://weathercitywatch.netlify.app/). It has been developed using Reactjs and bootstrap.
 
 ## Deployed at
 * [weathercitywatch.netlify.app](https://weathercitywatch.netlify.app/)
@@ -34,27 +34,21 @@ Know how to host at heroku.com - https://dev.to/destrodevshow/how-to-deploy-reac
 ```
 npx create-react-app
 npm i --save bootstrap
-npm i --save react-bootstrap
 ```
 ##### Dependencies
 * Bootstrap
-* React Bootstrap
 
 ### src folder structure
 ```
 src/
   Components/
-    GameOptionsComponent.css
-    GridTableComponent.jsx   
-    StatusScreenComponent.jsx
-    GameOptionsComponent.jsx
-    HeaderComponent.js
-    GridTableComponent.css  
-    StatusScreenComponent.css
+    FormInputComponent.jsx     ResultsCardComponent.jsx
+    InstructionsComponent.jsx  WelcomeMessageComponent.jsx
+    ResultsCardComponent.css
   App.css
   App.test.js
   index.css
-  logo.svg
+  logo.svg 
   setupTests.js
   App.jsx
   index.js 
