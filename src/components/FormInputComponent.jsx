@@ -1,13 +1,22 @@
-import {useState, useEffect} from "react";
+/* 
+I imported the useState & useEffect hook from react.
+I created the FormInputComponent passing in the cityLifterFuncProp from the App component.
+I created the userInput state variable that stores whatever the user types in after every keypress.
+I used the useEffect hook to lift the userInput whenever it changes.
+*/
+import { useState, useEffect } from "react";
 
-const FormInputComponent = ({cityColocatorFuncProp}) => {
+const FormInputComponent = ({ cityLifterFuncProp }) => {
 
   const [userInput, setUserInput] = useState("");
 
   useEffect(() => {
-    cityColocatorFuncProp(userInput);
-  }, [cityColocatorFuncProp, userInput])
+    cityLifterFuncProp(userInput);
+  }, [cityLifterFuncProp, userInput])
 
+  /* Below is the JSX that enables the user to input the city/town name.
+    * The value of the form is set from the userInput state variable which is set by the onChange event on the city/town input element.
+  */
   return (
     <section className="form-input">
       <form className="mt-3" id="form">

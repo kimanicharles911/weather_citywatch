@@ -1,3 +1,4 @@
+/* To center the ResultsCardComponent JSX I used flex and justified it's content */
 .results-card{
   display: flex;
   justify-content: center;
