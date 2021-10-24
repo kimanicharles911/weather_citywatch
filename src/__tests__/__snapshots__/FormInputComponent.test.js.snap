@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders FormInputComponent correctly 1`] = `
+<section
+  className="form-input"
+>
+  <form
+    className="mt-3"
+    id="form"
+  >
+    <div
+      className="row g-3 mb-3 justify-content-center"
+    >
+      <div
+        className="col-sm-3"
+      >
+        <input
+          className="form-control border-3"
+          id="cityInput"
+          onChange={[Function]}
+          placeholder="Name of City/Town..."
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+  </form>
+</section>
+`;

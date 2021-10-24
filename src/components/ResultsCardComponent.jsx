@@ -84,7 +84,7 @@ const ResultsCardComponent = ({cityProp}) => {
             <li><span className="fw-bold">City: </span><span>{city}</span></li>
             <li><span className="fw-bold">Day: </span><span>{day}</span></li>
             <li><span className="fw-bold">Outlook: </span><span>{outlook}</span></li>
-            <li><span className="fw-bold">Temperature: </span><span>{temperature}</span></li>
+            <li><span className="fw-bold">Temperature: </span><span data-testid="temp-value-span">{temperature}</span></li>
             <li><span className="fw-bold">Low-Hi Temp: </span><span>{lowestAndHighestTemp}</span></li>
           </ol>
         </div>

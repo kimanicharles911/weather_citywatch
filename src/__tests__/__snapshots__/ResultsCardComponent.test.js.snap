@@ -1,0 +1,80 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<section
+  className="results-card"
+>
+  <div
+    className="card mt-3 border-2"
+    style={
+      Object {
+        "width": "18rem",
+      }
+    }
+  >
+    <div
+      className="card-body"
+    >
+      <h2
+        className="card-title"
+      >
+        Results
+      </h2>
+      <ol>
+        <li>
+          <span
+            className="fw-bold"
+          >
+            City: 
+          </span>
+          <span>
+            
+          </span>
+        </li>
+        <li>
+          <span
+            className="fw-bold"
+          >
+            Day: 
+          </span>
+          <span>
+            
+          </span>
+        </li>
+        <li>
+          <span
+            className="fw-bold"
+          >
+            Outlook: 
+          </span>
+          <span>
+            
+          </span>
+        </li>
+        <li>
+          <span
+            className="fw-bold"
+          >
+            Temperature: 
+          </span>
+          <span
+            data-testid="temp-value-span"
+          >
+            
+          </span>
+        </li>
+        <li>
+          <span
+            className="fw-bold"
+          >
+            Low-Hi Temp: 
+          </span>
+          <span>
+            
+          </span>
+        </li>
+      </ol>
+    </div>
+  </div>
+</section>
+`;

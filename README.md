@@ -34,16 +34,26 @@ Know how to host at heroku.com - https://dev.to/destrodevshow/how-to-deploy-reac
 ```
 npx create-react-app
 npm i --save bootstrap
+npm i react-test-renderer
+npm i --save-dev enzyme
+npm i --save-dev @wojtekmaj/enzyme-adapter-react-17
+npm i --save-dev jest-fetch-mock
 ```
 ##### Dependencies
 * Bootstrap
+* Enzyme
+* Enzyme Adapter React 17
+* React Test renderer
+* Jest Fetch Mock
 
 ### src folder structure
 ```
 src/
   Components/
-    FormInputComponent.jsx     ResultsCardComponent.jsx
-    InstructionsComponent.jsx  WelcomeMessageComponent.jsx
+    FormInputComponent.jsx     
+    ResultsCardComponent.jsx
+    InstructionsComponent.jsx  
+    WelcomeMessageComponent.jsx
     ResultsCardComponent.css
   App.css
   App.test.js
