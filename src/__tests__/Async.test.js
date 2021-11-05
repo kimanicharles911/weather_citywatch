@@ -20,5 +20,5 @@ I defined a describe block which is used to describe multiple  tests that belong
 I define a test block using it. The first paramter of the test block is the test's description and the last parameter is a callback function that executes the test.
 I fetch the wether data and store it in a variable called request.
 I then convert the JSON in the request variable and store it in the response variable.
-I then use the expect assertion to check the country code of the city returned whether it matches it's country's code using the the toBe matcher.
+I then use the expect assertion to check the country code of the city returned whether it matches it's country's code using the the toBe matcher..
 */

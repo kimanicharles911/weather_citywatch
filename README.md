@@ -1,4 +1,4 @@
-# Weather CityWatch (Reactjs, Bootstrap) 
+# Weather CityWatch (Reactjs, Bootstrap, Jest, react-testing-library) 
 ## Description
 * This is the repository that holds the source code of [Weather CityWatch](https://weathercitywatch.netlify.app/). It has been developed using Reactjs and bootstrap.
 
@@ -8,19 +8,19 @@
 ## Setup/Installation Requirements
 ##### Install Dependencies
 
-```
+```sh
 npm install
 ```
 
 ##### Run React Development Server
 
-```
+```sh
 npm run start
 ```
 
 ##### To Build for Production
 
-```
+```sh
 npm run build
 Know how to host at heroku.com - https://dev.to/destrodevshow/how-to-deploy-react-app-to-heroku-in-5-minutes-3dni
 
@@ -29,9 +29,29 @@ Know how to host at heroku.com - https://dev.to/destrodevshow/how-to-deploy-reac
 ⚠️ Source: https://github.com/bazelbuild/rules_nodejs/issues/2452
 ```
 
+## Testing
+```sh
+npm run test
+```
+
+##### Unit Tests
+```sh
+src/
+  components/
+    __tests__/
+      Async.test.js
+```
+##### Snapshot Tests
+```sh
+src/
+  __tests__/
+    ResultsCardComponent.test.js
+    FormInputComponent.test.js
+```
+
 ## How It Was Built
 ##### Create React App
-```
+```sh
 npx create-react-app
 npm i --save bootstrap
 npm i react-test-renderer
@@ -47,16 +67,22 @@ npm i --save-dev jest-fetch-mock
 * Jest Fetch Mock
 
 ### src folder structure
-```
+```sh
 src/
-  Components/
+  components/
     FormInputComponent.jsx     
     ResultsCardComponent.jsx
     InstructionsComponent.jsx  
     WelcomeMessageComponent.jsx
     ResultsCardComponent.css
+  __tests__/
+    Async.test.js
+    ResultsCardComponent.test.js
+    FormInputComponent.test.js
+    __snapshots__/
+      FormInputComponent.test.js.snap
+      ResultsCardComponent.test.js.snap
   App.css
-  App.test.js
   index.css
   logo.svg 
   setupTests.js
